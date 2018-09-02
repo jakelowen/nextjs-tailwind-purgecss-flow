@@ -1,0 +1,10 @@
+@tailwind preflight;
+@tailwind components;
+@tailwind utilities;
+
+.btn-blue {
+  @apply tw-bg-blue tw-text-white tw-font-bold tw-py-2 tw-px-4 tw-rounded;
+}
+.btn-blue:hover {
+  @apply tw-bg-blue-dark;
+}
